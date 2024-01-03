@@ -1,10 +1,10 @@
 body {
     height: 100vh;
     display: flex;
-    background-color: #F2F5F9;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #F2F5F9;
 }
 
 h1 {
@@ -28,6 +28,7 @@ p {
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     max-width: 50vh;    
     border-radius: 15px;
     box-shadow: 4px 4px 15px rgb(0, 0, 0, 0.05);
